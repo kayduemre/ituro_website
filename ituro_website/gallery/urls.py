@@ -4,6 +4,6 @@ from django.urls import path
 
 urlpatterns = [
 
-    path('<slug:slug>/$', GalleryDetailView.as_view(),
+    path('<slug:slug>/', GalleryDetailView.as_view(),
         name="gallery_detail"),
 ]
